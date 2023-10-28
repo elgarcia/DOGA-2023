@@ -1,0 +1,26 @@
+{
+  "name": "khaotic",
+  "version": "0.0.1",
+  "description": "Npm dependencies for the DOGA challenge",
+  "main": "index.js",
+  "scripts": {
+    "install-dependencies": "npm install",
+    "start": "node index.js",
+    "test": "tst"
+  },
+  "keywords": [
+    "challenge",
+    "parsing",
+    "pdf",
+    "csv",
+    "excel"
+  ],
+  "author": "khaotic",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "pdf-parse": "^1.1.1",
+    "pdf-parser": "^1.0.5",
+  }
+}
